@@ -22,16 +22,13 @@ export default function About() {
         <motion.div variants={slideInLeft} className="relative w-full max-w-sm mx-auto">
           <div 
             style={{ height: '520px' }}
-            className="w-full rounded-3xl bg-white/10 backdrop-blur-3xl border border-white/20 flex items-end justify-center overflow-hidden relative shadow-[0_20px_50px_rgba(0,0,0,0.3)] group"
+            className="w-full rounded-3xl overflow-hidden relative shadow-2xl group"
           >
-            {/* Subtle light accent */}
-            <div className="absolute inset-0 bg-gradient-to-tr from-white/20 to-transparent pointer-events-none" />
-            
             <Image 
-              src="/images/carlos-martinez-white.png" 
+              src="/images/carlos-traje.jpg" 
               alt={personalInfo.name}
               fill
-              className="object-cover z-0 transition-transform duration-700 group-hover:scale-110 mix-blend-multiply"
+              className="object-cover z-0 transition-transform duration-700 group-hover:scale-110"
               priority
             />
           </div>
