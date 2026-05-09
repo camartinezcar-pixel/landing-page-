@@ -1,16 +1,17 @@
 export const personalInfo = {
-  name: "Carlos Andrés Martínez Cárdenas",
-  shortName: "Carlos Martínez",
+  name: "Carlos A. Martinez C.",
+  brandName: "En Guardia Business",
+  shortName: "Carlos Martinez",
   title: "Estratega Digital & Consultor de Negocios",
   tagline: "Transformando ideas en resultados extraordinarios",
   bio: "Profesional apasionado con más de 8 años de experiencia en estrategia digital, consultoría de negocios y liderazgo de proyectos. Ayudo a empresas y emprendedores a alcanzar su máximo potencial a través de soluciones innovadoras y orientadas a resultados.",
-  email: "carlos@carlosmartinez.co",
+  email: "carlos@enguardia.business",
   phone: "+57 300 000 0000",
   location: "Bogotá, Colombia",
   social: {
-    linkedin: "https://linkedin.com/in/carlosmartinez",
-    instagram: "https://instagram.com/carlosmartinez",
-    twitter: "https://twitter.com/carlosmartinez",
+    linkedin: "https://linkedin.com/in/enguardia-business",
+    instagram: "https://instagram.com/enguardia.business",
+    twitter: "https://twitter.com/enguardia_biz",
   },
 }
 

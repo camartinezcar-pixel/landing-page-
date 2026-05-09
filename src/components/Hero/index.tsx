@@ -21,14 +21,13 @@ export default function Hero() {
         animate="visible"
       >
         <motion.p variants={fadeUp} className="section-subtitle">
-          Bienvenido a mi espacio profesional
+          Estrategia y Resultados con Propósito
         </motion.p>
         <motion.h1 variants={fadeUp} className="font-serif text-5xl md:text-7xl font-bold text-cream leading-tight mb-6">
-          {personalInfo.shortName.split(' ')[0]}{' '}
-          <span className="text-tan">{personalInfo.shortName.split(' ')[1]}</span>
+          En Guardia <span className="text-tan">Business</span>
         </motion.h1>
         <motion.p variants={fadeUp} className="text-teal text-lg md:text-xl font-medium mb-4 tracking-wide">
-          {personalInfo.title}
+          Por <span className="text-tan/80 italic">{personalInfo.name}</span>
         </motion.p>
         <motion.p variants={fadeUp} className="text-cream/60 text-lg md:text-xl max-w-2xl mx-auto mb-10">
           {personalInfo.tagline}

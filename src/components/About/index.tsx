@@ -40,7 +40,7 @@ export default function About() {
 
         {/* Text side */}
         <div>
-          <motion.p variants={fadeUp} className="section-subtitle">Sobre mí</motion.p>
+          <motion.p variants={fadeUp} className="section-subtitle">En Guardia Business</motion.p>
           <motion.h2 variants={fadeUp} className="section-title">
             Estrategia con propósito,<br/>
             <span className="text-tan">resultados reales</span>

@@ -27,7 +27,7 @@ export default function Navbar() {
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'bg-navy/95 backdrop-blur-sm shadow-lg' : 'bg-transparent'}`}>
       <nav className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
         <a href="#hero" className="font-serif text-xl font-bold text-tan">
-          CM<span className="text-cream">.</span>
+          En Guardia<span className="text-cream ml-1">Business.</span>
         </a>
         <ul className="hidden md:flex gap-8">
           {links.map(l => (

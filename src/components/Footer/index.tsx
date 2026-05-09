@@ -13,7 +13,7 @@ export default function Footer() {
     <footer className="bg-navy border-t border-teal/10 py-12">
       <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6">
         <a href="#hero" className="font-serif text-2xl font-bold text-tan">
-          CM<span className="text-cream">.</span>
+          En Guardia<span className="text-cream ml-1">Business.</span>
         </a>
         <nav className="flex flex-wrap justify-center gap-6">
           {links.map(l => (
@@ -21,7 +21,7 @@ export default function Footer() {
           ))}
         </nav>
         <p className="text-cream/30 text-sm">
-          © {year} {personalInfo.shortName}
+          © {year} En Guardia Business
         </p>
       </div>
     </footer>
