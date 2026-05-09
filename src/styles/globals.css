@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --navy:    #1E2A38;
+  --teal:    #264653;
+  --olive:   #556B2F;
+  --tan:     #C19A6B;
+  --crimson: #6D1F2B;
+  --brown:   #4A3428;
+  --charcoal:#3A3A3A;
+  --cream:   #F8F4E8;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  background-color: var(--navy);
+  color: var(--cream);
+  font-family: var(--font-inter), system-ui, sans-serif;
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-tan text-navy font-semibold px-6 py-3 rounded-md hover:bg-[#d4aa7a] transition-colors duration-200;
+  }
+  .btn-outline {
+    @apply border border-tan text-tan px-6 py-3 rounded-md hover:bg-tan hover:text-navy transition-colors duration-200;
+  }
+  .section-title {
+    @apply font-serif text-3xl md:text-4xl font-bold text-cream mb-4;
+  }
+  .section-subtitle {
+    @apply text-tan text-sm uppercase tracking-widest mb-3;
+  }
+}
